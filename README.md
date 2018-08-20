@@ -114,6 +114,8 @@ Comparing to the baseline (NON_KEPT), all features improve the predictions. Amon
 Though not shown in the plot, testing Proportional MAE indicates uses of locality and neighborhood features lead to overfitting. I merged small categories under locality/neighborhood to a category called "Others" (which is also the category for unobserved locality/neighborhood in training dataset). The following plot indicates that the quantile of 30% is a good threshold for deciding "small categories".  
 ![](./experiments/scatter_threshould_categorical.png)
 
+Another way to deal with this Dimension Reduction by LASSO/AIC, however, given limited time I only tried AIC, but the first try wasn't good enough for selecting locality.  
+
 #### 5.2. Does logarithm transformation help to rebalance skewness?
 As stated in section 4, we use logarithm transformation to deal with skewed data issue. We first try to implement it on price:   
 ![](./experiments/log_price_vs_price.png)
