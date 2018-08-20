@@ -1,0 +1,237 @@
+neighborhood,locality,administrative_area_level_2,administrative_area_level_1,country,lat,long,count_markets,count_restaurants,count_stations,count_schools,count_clinics
+Algona,Algona,King County,Washington,United States,47.28083181818182,-122.25195454545457,0,3,10,9,7
+Alki,Seattle,King County,Washington,United States,47.57455918367347,-122.40626530612246,0,5,10,18,16
+Arbor Heights,Seattle,King County,Washington,United States,47.50975892857142,-122.38001785714287,1,0,10,20,18
+Arbors at Rock Creek,Maple Valley,King County,Washington,United States,47.37049,-122.01780000000001,1,10,8,14,12
+Atlantic,Seattle,King County,Washington,United States,47.594843750000024,-122.30195312499998,2,4,10,20,20
+Auburn,Auburn,King County,Washington,United States,47.308990597014976,-122.22213134328358,4,19,10,18,18
+Auburn,Auburn,Pierce County,Washington,United States,47.2577,-122.198,0,0,2,8,1
+Ballard,Seattle,King County,Washington,United States,47.679207161125255,-122.38075191815871,4,11,10,19,19
+Ballinger,Shoreline,King County,Washington,United States,47.77393333333333,-122.30866666666667,1,6,10,19,16
+Bear Creek,Redmond,King County,Washington,United States,47.68393,-122.09559999999999,0,0,10,16,14
+Beaux Arts Village,Beaux Arts Village,King County,Washington,United States,47.5854,-122.19933333333331,0,0,10,19,8
+Bellevue,Bellevue,King County,Washington,United States,47.575124999999986,-122.14605555555552,1,7,10,19,17
+Bitter Lake,Seattle,King County,Washington,United States,47.71896875000001,-122.35156249999996,5,8,10,20,19
+Bitter Lake,Shoreline,King County,Washington,United States,47.7114,-122.35300000000001,1,10,10,18,18
+Black Diamond,Black Diamond,King County,Washington,United States,47.32447164179105,-122.02453731343287,0,0,0,4,0
+Bothell,Bothell,King County,Washington,United States,47.75499892473119,-122.20273655913978,2,16,10,19,18
+Briarcliff,Seattle,King County,Washington,United States,47.64532857142856,-122.4075079365079,1,9,10,9,15
+Briarcrest,Shoreline,King County,Washington,United States,47.73867674418605,-122.2998139534884,1,3,10,19,12
+Bridle Trails,Bellevue,King County,Washington,United States,47.643746478873226,-122.16212676056338,0,0,10,18,18
+Bridle Trails,Kirkland,King County,Washington,United States,47.660519512195116,-122.17868292682923,1,0,10,20,10
+Brighton,Seattle,King County,Washington,United States,47.538578431372564,-122.27529411764704,6,18,10,18,17
+Broadview,Seattle,King County,Washington,United States,47.719398305084745,-122.36127118644066,0,1,10,20,20
+Bryant,Seattle,King County,Washington,United States,47.672583333333336,-122.28649999999999,1,8,10,19,19
+Burien,Burien,King County,Washington,United States,47.466558649788986,-122.34352742616049,7,18,10,18,20
+Burton,Vashon,King County,Washington,United States,47.392300000000006,-122.46325,0,0,3,1,2
+Capitol Hill,Seattle,King County,Washington,United States,47.62631803278688,-122.31365573770483,6,19,10,19,20
+Carnation,Carnation,King County,Washington,United States,47.66575315315313,-121.91226126126128,0,0,0,4,2
+Cedar Park,Seattle,King County,Washington,United States,47.72299782608696,-122.28802173913046,4,16,10,19,17
+Central District,Seattle,King County,Washington,United States,47.607983421052644,-122.297442105263,5,13,10,20,19
+Central Houghton,Kirkland,King County,Washington,United States,47.657027906976744,-122.19379069767443,0,6,10,20,9
+Clyde Hill,Clyde Hill,King County,Washington,United States,47.630724,-122.21776,0,0,10,18,18
+Columbia City,Seattle,King County,Washington,United States,47.55784173913045,-122.28391304347826,3,19,10,19,19
+Cougar Mountain,Bellevue,King County,Washington,United States,47.555472727272736,-122.12170909090915,1,1,4,16,3
+Covington,Covington,King County,Washington,United States,47.36824581673305,-122.09872111553781,2,2,10,18,19
+Crossroads,Bellevue,King County,Washington,United States,47.62036388888888,-122.1452222222222,9,16,10,19,18
+Crown Hill,Seattle,King County,Washington,United States,47.69695466666667,-122.37174666666674,3,5,10,19,14
+Delridge,Seattle,King County,Washington,United States,47.539260942760926,-122.36330639730646,0,2,10,18,19
+Des Moines,Des Moines,King County,Washington,United States,47.39113449612405,-122.31759689922478,0,6,10,17,9
+Douglas Park,Seattle,King County,Washington,United States,47.72451333333334,-122.30080000000001,7,17,10,19,17
+Downtown,Redmond,King County,Washington,United States,47.676640000000006,-122.11940000000001,6,19,10,15,13
+Downtown,Seattle,King County,Washington,United States,47.605450000000005,-122.319,17,20,10,20,20
+Dunlap,Seattle,King County,Washington,United States,47.5281394736842,-122.27113157894739,2,8,10,18,11
+Duvall,Duvall,King County,Washington,United States,47.73654263157897,-121.96048421052629,0,0,0,9,2
+East Queen Anne,Seattle,King County,Washington,United States,47.6363138888889,-122.35024999999996,3,9,10,18,17
+Eastgate,Bellevue,King County,Washington,United States,47.572454687500006,-122.13724999999998,1,7,10,19,18
+Eastlake,Seattle,King County,Washington,United States,47.639916129032244,-122.32641935483879,1,7,10,18,19
+Echo Lake,Edmonds,Snohomish County,Washington,United States,47.7775,-122.336,3,17,10,20,19
+Echo Lake,Shoreline,King County,Washington,United States,47.770081250000004,-122.33429166666669,0,9,10,20,20
+Education Hill,Redmond,King County,Washington,United States,47.69090681818181,-122.11514393939395,0,1,10,16,14
+English Hill,Redmond,King County,Washington,United States,47.72250857142858,-122.1055428571429,0,0,4,9,1
+Enumclaw,Enumclaw,King County,Washington,United States,47.2112107296137,-121.99503004291836,0,11,10,17,16
+Everest,Kirkland,King County,Washington,United States,47.67328571428572,-122.18999999999998,3,13,10,19,8
+Factoria,Bellevue,King County,Washington,United States,47.568115,-122.16990000000001,3,12,10,17,14
+Fairmount Park,Seattle,King County,Washington,United States,47.55368039215688,-122.38047058823528,4,18,10,18,20
+Fall City,Fall City,King County,Washington,United States,47.56289130434782,-121.90237681159422,1,2,3,5,1
+Fauntleroy,Seattle,King County,Washington,United States,47.52435970149255,-122.38617910447758,0,3,10,19,14
+Federal Way,Federal Way,King County,Washington,United States,47.31203987012987,-122.34510519480523,0,2,10,18,17
+Federal Way,Federal Way,Pierce County,Washington,United States,47.2772,-122.354,1,3,10,16,20
+Fremont,Seattle,King County,Washington,United States,47.656995238095234,-122.35199999999992,2,19,10,19,17
+Gatewood,Seattle,King County,Washington,United States,47.53688045977014,-122.38362068965523,1,3,10,19,18
+Genesee,Seattle,King County,Washington,United States,47.56533818181818,-122.38676363636357,4,19,10,19,19
+Georgetown,Seattle,King County,Washington,United States,47.54443,-122.3214,4,16,10,16,11
+Gilman,Issaquah,King County,Washington,United States,47.534885714285714,-122.04400000000001,4,18,10,17,19
+Gold Bar,Gold Bar,King County,Washington,United States,47.76245,-121.4765,0,0,0,0,0
+Grass Lawn,Kirkland,King County,Washington,United States,47.6647,-122.16,1,1,10,14,2
+Grass Lawn,Redmond,King County,Washington,United States,47.66875666666668,-122.14781111111112,0,0,10,16,14
+Greater Duwamish,Seattle,King County,Washington,United States,47.55375653594771,-122.30357843137261,2,4,10,19,20
+Green Lake,Seattle,King County,Washington,United States,47.68108837209303,-122.33144186046508,4,15,10,19,17
+Greenwood,Seattle,King County,Washington,United States,47.693766359447,-122.35425806451633,5,15,10,19,19
+Haller Lake,Seattle,King County,Washington,United States,47.72074434782609,-122.33576521739137,5,11,10,20,20
+Hawthorne Hills,Seattle,King County,Washington,United States,47.6748,-122.279,2,2,10,19,18
+Highland Terrace,Seattle,King County,Washington,United States,47.7466,-122.34700000000001,6,12,10,20,15
+Highland Terrace,Shoreline,King County,Washington,United States,47.74477,-122.35455000000002,5,12,10,20,12
+Highlands,Kirkland,King County,Washington,United States,47.688983673469394,-122.18667346938771,0,4,10,17,12
+Highline,Burien,King County,Washington,United States,47.497728571428574,-122.31028571428571,2,4,10,18,10
+Highline,SeaTac,King County,Washington,United States,47.4889,-122.29899999999999,2,2,10,17,8
+Highline,Seattle,King County,Washington,United States,47.50328293515356,-122.33813310580206,0,1,10,20,20
+Highpointe,Covington,King County,Washington,United States,47.36265,-122.12700000000001,3,14,10,14,19
+Highpointe,Kent,King County,Washington,United States,47.3645,-122.126,4,16,10,15,20
+Hillwood,Shoreline,King County,Washington,United States,47.77179285714284,-122.35503571428572,1,17,10,20,20
+Hunts Point,Hunts Point,King County,Washington,United States,47.637566666666665,-122.226,0,0,10,20,14
+Inglewood-Finn Hill,Bothell,King County,Washington,United States,47.7357,-122.193,0,1,10,18,17
+Inglewood-Finn Hill,Kirkland,King County,Washington,United States,47.721236391437316,-122.22300917431197,0,0,10,18,6
+Innis Arden,Shoreline,King County,Washington,United States,47.758739999999996,-122.37343999999999,1,2,7,20,18
+Interbay,Seattle,King County,Washington,United States,47.6542,-122.385,2,6,10,20,18
+Issaquah,Issaquah,King County,Washington,United States,47.51991271186438,-122.02741949152534,0,0,6,15,19
+Issaquah Highlands,Issaquah,King County,Washington,United States,47.54713371428571,-122.00348571428562,0,5,0,19,19
+Junction,Seattle,King County,Washington,United States,47.562475,-122.38684999999998,4,18,10,19,20
+Kenmore,Kenmore,King County,Washington,United States,47.75506726618705,-122.24628776978415,3,12,10,15,6
+Kenmore,Kenmore,Snohomish County,Washington,United States,47.7769,-122.25,0,0,0,16,5
+Kennydale,Renton,King County,Washington,United States,47.516492499999984,-122.19595000000001,0,0,10,13,5
+Kent,Kent,King County,Washington,United States,47.37934864277951,-122.181704668838,0,0,10,19,19
+Kingsgate,Kirkland,King County,Washington,United States,47.725289361702124,-122.17394326241141,1,2,10,17,18
+Kirkland,Kirkland,King County,Washington,United States,47.695483333333335,-122.18591666666667,0,4,10,17,16
+Klahanie,Issaquah,King County,Washington,United States,47.56942733333333,-122.00932,1,4,4,16,6
+Lake City,Seattle,King County,Washington,United States,47.712483568075136,-122.29553521126765,2,9,10,20,18
+Lake City,Shoreline,King County,Washington,United States,47.7338,-122.309,1,2,10,20,18
+Lake Forest Park,Lake Forest Park,King County,Washington,United States,47.76009479768785,-122.28706936416184,1,6,10,20,5
+Lake Hills,Bellevue,King County,Washington,United States,47.599190476190465,-122.14344761904765,2,7,10,19,17
+Lakeland Hills,Auburn,King County,Washington,United States,47.26261777777779,-122.21628888888895,0,2,8,9,2
+Lakeland Hills,Auburn,Pierce County,Washington,United States,47.2577,-122.2155,0,0,10,9,2
+Lakeview,Kirkland,King County,Washington,United States,47.657918181818175,-122.2033181818182,1,6,10,20,7
+Laurelhurst,Seattle,King County,Washington,United States,47.659346875,-122.27824999999999,1,9,10,17,19
+Lawton Park,Seattle,King County,Washington,United States,47.65434942528737,-122.39387356321839,0,4,10,19,19
+Lea Hill,Auburn,King County,Washington,United States,47.32726384615383,-122.17767692307699,0,3,10,8,0
+Lea Hill,Kent,King County,Washington,United States,47.349,-122.166,1,2,10,14,6
+Leota,Woodinville,King County,Washington,United States,47.76679761904762,-122.13011904761905,0,1,6,17,16
+Licton Springs,Seattle,King County,Washington,United States,47.696008000000006,-122.34022666666674,1,4,10,19,20
+Lower Queen Anne,Seattle,King County,Washington,United States,47.62842105263157,-122.35910526315789,5,13,10,17,20
+Loyal Heights,Seattle,King County,Washington,United States,47.6839947368421,-122.38689473684211,4,13,10,19,18
+Madison Park,Seattle,King County,Washington,United States,47.63483921568628,-122.28452941176471,1,4,10,18,19
+Magnolia,Seattle,King County,Washington,United States,47.646350340136074,-122.39789795918371,1,5,10,14,16
+Mann,Seattle,King County,Washington,United States,47.61178499999999,-122.29855,5,11,10,20,20
+Maple Leaf,Seattle,King County,Washington,United States,47.69402222222223,-122.31681249999994,0,7,10,19,20
+Maple Valley,Maple Valley,King County,Washington,United States,47.37063144329907,-122.03142268041219,1,9,8,14,14
+Market,Kirkland,King County,Washington,United States,47.68916774193549,-122.21251612903228,0,1,10,17,8
+Medina,Medina,King County,Washington,United States,47.62583999999998,-122.23353999999996,0,0,8,10,2
+Mercer Island,Mercer Island,King County,Washington,United States,47.559846099290766,-122.22559219858152,0,0,10,15,3
+Meridian Park,Shoreline,King County,Washington,United States,47.75388196721312,-122.33698360655735,3,8,10,20,20
+Miller Park,Seattle,King County,Washington,United States,47.62095,-122.302,6,18,10,19,20
+Milton,Milton,King County,Washington,United States,47.25866666666667,-122.30741666666665,0,9,10,19,1
+Montlake,Seattle,King County,Washington,United States,47.64017499999999,-122.30411111111113,1,1,10,18,19
+Montreux,Issaquah,King County,Washington,United States,47.55251764705883,-122.09199999999998,0,0,6,10,5
+Morning Glen,Renton,King County,Washington,United States,47.44255,-122.19121428571428,2,3,10,17,19
+Morningside,Bothell,King County,Washington,United States,47.7733,-122.17,0,0,10,18,15
+Moss Bay,Kirkland,King County,Washington,United States,47.673375,-122.198375,2,20,10,19,6
+Mount Baker,Seattle,King County,Washington,United States,47.578572,-122.28967999999996,3,8,10,18,19
+Newcastle,Newcastle,King County,Washington,United States,47.53027555555553,-122.16722222222228,2,4,10,10,2
+Newport,Bellevue,King County,Washington,United States,47.552436936936935,-122.18053153153156,1,2,10,17,10
+Newport,Issaquah,King County,Washington,United States,47.5485,-122.07442857142857,0,2,10,12,12
+Norkirk,Kirkland,King County,Washington,United States,47.68525762711864,-122.20216949152542,1,14,10,18,10
+Normandy Park,Normandy Park,King County,Washington,United States,47.43567045454547,-122.34301136363632,1,8,10,16,19
+North Admiral,Seattle,King County,Washington,United States,47.57957433628316,-122.38678761061945,1,7,10,19,13
+North Beach/ Blue Ridge,Seattle,King County,Washington,United States,47.69869146341464,-122.38703658536582,2,2,10,17,12
+North Bend,North Bend,King County,Washington,United States,47.47375753424657,-121.75828310502294,0,1,0,7,16
+North City,Seattle,King County,Washington,United States,47.7522,-122.307,3,6,10,20,5
+North City,Shoreline,King County,Washington,United States,47.75903600000001,-122.31283999999997,3,6,10,20,18
+North Delridge,Seattle,King County,Washington,United States,47.5534,-122.365,0,1,10,18,19
+North Issaquah,Issaquah,King County,Washington,United States,47.554694999999995,-122.03220000000002,2,5,10,17,20
+North Issaquah,Sammamish,King County,Washington,United States,47.55975,-122.04,1,5,8,19,17
+North Juanita,Kirkland,King County,Washington,United States,47.71490487804877,-122.20665853658537,1,15,10,18,14
+North Queen Anne,Seattle,King County,Washington,United States,47.64606799999999,-122.36496,5,11,10,19,18
+North Redmond,Redmond,King County,Washington,United States,47.70580217391305,-122.11554347826085,0,0,7,14,2
+North Rose Hill,Kirkland,King County,Washington,United States,47.69322105263158,-122.17096052631577,0,0,10,18,19
+North Seattle,Seattle,King County,Washington,United States,47.71514843750003,-122.30769531250004,6,17,10,19,19
+Northeast Bellevue,Bellevue,King County,Washington,United States,47.625679503105594,-122.11318012422352,0,0,10,19,14
+Northeast Bellevue,Redmond,King County,Washington,United States,47.6272,-122.095,0,1,10,14,2
+Northeast Seattle,Seattle,King County,Washington,United States,47.6751380081301,-122.294180894309,2,11,10,19,19
+Northeast Tacoma,Federal Way,Pierce County,Washington,United States,47.2874,-122.37,2,5,10,19,2
+Northgate,Seattle,King County,Washington,United States,47.70769310344828,-122.32934482758623,2,17,10,20,20
+Northwest Bellevue,Bellevue,King County,Washington,United States,47.62643629032257,-122.20497580645164,4,16,10,18,19
+Northwest Seattle,Seattle,King County,Washington,United States,47.69278734177214,-122.35214345991562,5,13,10,19,18
+Old Ballard,Seattle,King County,Washington,United States,47.67240099009903,-122.3867524752475,4,19,10,18,18
+Olde Town,Issaquah,King County,Washington,United States,47.529695454545454,-122.03222727272727,0,13,10,17,19
+Overlake,Redmond,King County,Washington,United States,47.65605,-122.12672222222226,0,0,9,15,13
+Pacific,Pacific,King County,Washington,United States,47.264162500000005,-122.24929999999999,0,3,10,8,2
+Pacific,Pacific,Pierce County,Washington,United States,47.2576,-122.255,0,0,5,6,2
+Parkwood,Shoreline,King County,Washington,United States,47.73834594594594,-122.33635135135134,4,18,10,20,15
+Phinney Ridge,Seattle,King County,Washington,United States,47.675745454545456,-122.36021212121213,2,9,10,20,19
+Pinehurst,Seattle,King County,Washington,United States,47.716462500000006,-122.318875,5,11,10,19,20
+Preston,Preston,King County,Washington,United States,47.5345875,-121.931,0,1,1,2,0
+Queen Anne,Seattle,King County,Washington,United States,47.636916666666664,-122.36380000000001,4,5,10,18,17
+Rainier Beach,Seattle,King County,Washington,United States,47.5132262295082,-122.25919672131144,1,7,10,18,9
+Rainier Valley,Seattle,King County,Washington,United States,47.55065797101447,-122.27649758454105,4,19,10,18,19
+Rainier View,Seattle,King County,Washington,United States,47.50174827586207,-122.25851724137934,0,0,10,17,7
+Ravenna,Seattle,King County,Washington,United States,47.67921428571429,-122.30199999999998,2,7,10,19,18
+Ravensdale,Ravensdale,King County,Washington,United States,47.35012647058825,-121.95141176470582,0,0,0,2,0
+Redmond,Redmond,King County,Washington,United States,47.67891515151516,-122.030393939394,0,0,6,12,1
+Redmond Ridge,Redmond,King County,Washington,United States,47.6830445945946,-122.03579729729726,0,0,4,13,1
+Redmond Ridge East,Redmond,King County,Washington,United States,47.6906840909091,-122.01890909090908,1,5,8,8,1
+Renton,Renton,King County,Washington,United States,47.47161499261449,-122.15988183161005,0,1,9,13,9
+Richmond Beach,Seattle,King County,Washington,United States,47.77,-122.39,0,2,8,15,5
+Richmond Beach,Shoreline,King County,Washington,United States,47.77306603773584,-122.3800943396227,0,3,10,20,11
+Richmond Highlands,Shoreline,King County,Washington,United States,47.75747343750001,-122.35679687499999,4,6,10,20,20
+Ridgecrest,Shoreline,King County,Washington,United States,47.74575636363639,-122.32080909090911,1,1,10,20,15
+Riverton-Boulevard Park,Burien,King County,Washington,United States,47.49712857142857,-122.30914285714286,3,4,10,18,8
+Riverton-Boulevard Park,Seattle,King County,Washington,United States,47.51,-122.32700000000001,2,2,10,20,16
+Salmon Creek,Burien,King County,Washington,United States,47.49387826086956,-122.36134782608694,1,0,10,20,19
+Salmon Creek,Seattle,King County,Washington,United States,47.496750000000006,-122.35050000000001,1,0,10,20,20
+Sammamish,Sammamish,King County,Washington,United States,47.60844795783925,-122.03473122529648,5,10,10,17,3
+Scenic Hill,Kent,King County,Washington,United States,47.37473636363637,-122.2199090909091,1,8,10,20,19
+SeaTac,SeaTac,King County,Washington,United States,47.44573485714287,-122.28989142857141,0,6,10,17,9
+Seahurst,Burien,King County,Washington,United States,47.46996666666667,-122.35629999999998,1,16,10,17,20
+Seahurst,Seattle,King County,Washington,United States,47.4713,-122.355,1,20,10,18,20
+Seattle,Seattle,King County,Washington,United States,47.519427510917005,-122.26302183406116,1,8,10,16,8
+Seattle,Seattle,Snohomish County,Washington,United States,47.7776,-122.375,0,4,10,20,13
+Seward Park,Seattle,King County,Washington,United States,47.55102236842105,-122.26826315789475,2,12,10,17,19
+Shoreline,Shoreline,King County,Washington,United States,47.75595,-122.331,1,3,10,20,20
+Shorewood on the Sound,Burien,King County,Washington,United States,47.49232857142857,-122.36485714285713,0,0,8,20,19
+Skykomish,Skykomish,King County,Washington,United States,47.71257142857142,-121.35085714285715,0,2,0,1,0
+Snoqualmie,Snoqualmie,King County,Washington,United States,47.529050819672136,-121.81875409836066,1,10,8,9,12
+Snoqualmie Ridge,Snoqualmie,King County,Washington,United States,47.53233505976092,-121.87261752988039,1,12,7,8,17
+Somerset,Bellevue,King County,Washington,United States,47.55731403508773,-122.15307894736844,0,0,10,19,16
+South Juanita,Kirkland,King County,Washington,United States,47.70335000000002,-122.20223437499999,2,17,10,17,16
+South Rose Hill,Kirkland,King County,Washington,United States,47.67314583333334,-122.17272916666671,2,11,10,20,3
+Southeast Magnolia,Seattle,King County,Washington,United States,47.641349999999996,-122.39594444444444,1,6,10,13,5
+Southeast Redmond,Redmond,King County,Washington,United States,47.664500000000004,-122.08366666666667,0,1,10,17,7
+Southwest,Seattle,King County,Washington,United States,47.55285076335876,-122.38912213740457,4,19,10,19,19
+Squak Mountain,Issaquah,King County,Washington,United States,47.52700363636364,-122.04927272727268,0,9,5,16,18
+Squire Park,Seattle,King County,Washington,United States,47.605740000000004,-122.3106,13,20,10,19,19
+Stevens,Seattle,King County,Washington,United States,47.6266880952381,-122.30014285714283,3,12,10,19,20
+Sunset Hill,Seattle,King County,Washington,United States,47.6952,-122.402,0,1,10,13,7
+Sycamore,Issaquah,King County,Washington,United States,47.512,-122.029,0,0,1,10,7
+Talus,Issaquah,King County,Washington,United States,47.53457714285713,-122.07101428571433,0,0,6,12,18
+The Highlands,Shoreline,King County,Washington,United States,47.7469,-122.37799999999999,0,0,0,20,13
+The Wedge,Woodinville,King County,Washington,United States,47.768321212121194,-122.16184848484848,0,3,10,18,15
+Tibbetts Creek Valley,Issaquah,King County,Washington,United States,47.5278,-122.06299999999999,0,0,0,17,18
+Totem Lake,Kirkland,King County,Washington,United States,47.7042,-122.18700000000001,7,18,10,17,15
+Tourist District,Woodinville,King County,Washington,United States,47.7344,-122.14299999999999,0,9,0,19,15
+Town Center,Woodinville,King County,Washington,United States,47.75813333333334,-122.1455714285714,1,18,10,16,16
+Tukwila,Tukwila,King County,Washington,United States,47.47693571428573,-122.2750612244898,3,5,10,17,15
+Tuscany,Woodinville,King County,Washington,United States,47.711084615384614,-122.0743076923077,0,0,2,10,1
+Vashon,Vashon,King County,Washington,United States,47.418093805309724,-122.46401769911499,0,0,4,4,1
+Viewpoint,Bellevue,King County,Washington,United States,47.64035,-122.111,0,1,10,18,11
+Viewpoint,Redmond,King County,Washington,United States,47.63509487179489,-122.10207692307694,0,0,10,18,9
+Wallingford,Seattle,King County,Washington,United States,47.661145502645496,-122.33384656084655,2,20,10,19,19
+Washington Park,Seattle,King County,Washington,United States,47.62751538461539,-122.28946153846154,1,9,10,20,19
+Wedgwood,Seattle,King County,Washington,United States,47.6892875,-122.28975,2,4,10,19,15
+West Bellevue,Bellevue,King County,Washington,United States,47.59419189189189,-122.19808108108104,0,0,10,19,9
+West Lake Sammamish,Bellevue,King County,Washington,United States,47.596024590163914,-122.1197950819672,0,3,10,18,18
+West Queen Anne,Seattle,King County,Washington,United States,47.635845454545446,-122.36722727272726,4,9,10,18,17
+West Ridge,Kirkland,King County,Washington,United States,47.733999999999995,-122.17399999999999,1,4,10,17,17
+West Ridge,Woodinville,King County,Washington,United States,47.74121904761905,-122.17047619047614,1,1,10,17,17
+West Seattle,Seattle,King County,Washington,United States,47.54200516605166,-122.36909963099625,0,0,10,19,19
+West Woodland,Seattle,King County,Washington,United States,47.668728571428574,-122.36557142857146,5,11,10,20,18
+Westlake,Seattle,King County,Washington,United States,47.635819999999995,-122.34200000000001,2,4,10,18,17
+Westminster Triangle,Shoreline,King County,Washington,United States,47.73781666666665,-122.34849999999999,4,19,10,20,13
+Whittier Heights,Seattle,King County,Washington,United States,47.68091428571429,-122.36757142857142,3,14,10,20,19
+Wilburton,Bellevue,King County,Washington,United States,47.61089565217392,-122.16799999999998,1,2,10,19,20
+Willow - Rose Hill,Kirkland,King County,Washington,United States,47.691275,-122.16150000000002,0,0,10,19,8
+Willow - Rose Hill,Redmond,King County,Washington,United States,47.68594285714288,-122.15878571428571,0,2,10,18,7
+Windermere,Seattle,King County,Washington,United States,47.6716,-122.279,1,2,10,18,19
+Woodinville,Woodinville,King County,Washington,United States,47.74703788819877,-122.08352173913043,1,2,10,9,0
+Woodinville,Woodinville,Snohomish County,Washington,United States,47.7759,-122.08,0,0,0,5,0
+Woodridge,Bellevue,King County,Washington,United States,47.591521212121194,-122.17228787878783,0,0,10,17,17
+Yarrow Point,Yarrow Point,King County,Washington,United States,47.64508235294119,-122.21805882352943,0,0,6,19,19
