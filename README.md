@@ -58,7 +58,7 @@ The number on the plot indicate the count of data in that region. Most of the sa
 To show this I made the scatter plots between each indicator to the logarithm of price:    
 ![](./visualize/scatter_all_by_log_price.png)
 
-Out of all columns, the grade, size of the living room (sqft_living) has the strongest correlation on the plot.
+Out of all columns, the grade, size of the living room (sqft_living) has the strongest correlation on the plot (this is further shown in importance analysis).
 
 Code of visualizing can be found in ```./visualize/visualize.py```. 
 
@@ -92,6 +92,11 @@ Code of preparing data can be found in ```./lib/prepare_data.py```.
 #### 3. Model Setup
 When a human customer goes to buy a house it can be thought as a combination of decisions over different perspectives, a decision tree is born to mimic human decision-making process, therefore, I choose it as the root of my modeling. Since the perspectives to be considered are many, I use a bootstrap-upgraded decision called Random Forest to ensure robustness.
 
+The best part for using Random Forest is that it doesn't have any assumptions like those of Linear Regressions: Multivariate normality, Linear relationship, No multicollinearity, No auto-correlation etc. Although this should be checked to help approach better performance or robustness, but these are not required.  
+
+A bonus for Random Forest is that it still have the node importance feature, which helps us to find the most significant features.
+
+
 #### 4. Loss function and metrics
 I choose Mean Squared Error as loss function for machine learning since it is faster than Mean Absolute Error. Doing so causes a potential problem of bias over the bigger value outlier, two solutions for this:
 1) Delete outliers with a threshold.   
@@ -121,7 +126,7 @@ To cutoff outliers bigger than a threshold of 90% quantile help to decrease vali
 
 Given limited time, I only show the points, a better way of doing this is clustering/Gaussian-based cutoff.
 
-#### 5.4. Results
+#### 5.4. Current Results
 Based on insights from 5.1~5.3, I zoom in on 127 different experiment factors. With the criteria of validating Proportional MAE and testing Proportional MAE, I found the best models and list them here:  
 ![](./experiments/best_models.png)
 
@@ -131,6 +136,13 @@ An average of 62% improvement has been seen on the dataset!
 
 The grid search experiments can be found in ```./experiments/exp_logs.xlsx```.
 The code of feature engineering can be found in ```./lib/feature_engineering.py```.
+
+#### 6. Error Analysis 
+Plot the error and check its distribution, better be normal distributed.
+
+
+#### 7. Node Importance Analysis
+Identify the most important nodes for the optimal model.  
 
 ### Conclusions
 1. Log prices help increase robustness but hurt model fitting, it can be improved by implementing Box-Cox.  Logged count, logged age, and logged sqft didn't contribute significantly to the final improvement comparing to their original forms, but they should be kept since they help to moderate robustness issue caused by taking MSE loss. In other words, the log-transformed features may keep the model consistently good even when encountering outlier values in the future.
