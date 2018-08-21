@@ -14,13 +14,13 @@ The code for this report is well-documented in the form of python files, where,
 
 All experiments conditions and results are stored in ```./experiments/exp_logs.xlsx```
 
-```./visualize/visualize.py``` is code for visualizing.
+```./visualize/visualize.py``` is code for visualizations.
 
 ```./tmp``` stores the intermediate data.
 
 ```./logs``` stores the logs of model training.
 
-```./data``` stores the original data used for this project, which can be easily changed to data with similar format.
+```./data``` stores the original data used for this project, which can be easily changed to data with a similar format.
 
 
 ### Understanding the Problem
