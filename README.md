@@ -3,7 +3,24 @@
 
 ### Strayn Wang
 
-This report has 3 sections: Understanding the Problem, Data Exploration, Machine Learning.
+This report has 4 sections: **README, Understanding the Problem, Data Exploration, Machine Learning**.  
+
+### README
+The code for this report is well-documented in the form of python files, where,  
+```./lib/1.geo_recovering.py``` reads the original data and impute streets, neighborhoods, cities, counties, states, countries information to the data, and search & count the number of clinics, schools, restaurants, supermarkets, transportations around the location by Google Geocoding API.  
+```./lib/2.prepare_data.py``` transforms/adds features by analysis specified in this report.
+```./lib/3.split_train_val_test.py``` prepares the training/validation/testing data used for machine learning model.  
+```./lib/4.feature_engineering.py``` defines experiment criteria used for training/testing different model iteratively for the purpose of feature engineering.  
+
+All experiments conditions and results are stored in ```./experiments/exp_logs.xlsx```
+
+```./visualize/visualize.py``` is code for visualizing.
+
+```./tmp``` stores the intermediate data.
+
+```./logs``` stores the logs of model training.
+
+```./data``` stores the original data used for this project, which can be easily changed to data with similar format.
 
 
 ### Understanding the Problem
@@ -149,7 +166,7 @@ The best models have an average validating Proportional MAE of 0.1426 and a test
 The code of feature engineering can be found in ```./lib/feature_engineering.py```.
 
 #### 6. Error Analysis (haven't done)
-Plot the error and check its distribution (expected to be normally distributed), if there are any siginicaint patterns in error distribution, Gradient Boost Random Forest can be implemented to improve the prediction.
+Plot the error and check its distribution (expected to be normally distributed), if there are any significant patterns in error distribution, Gradient Boost Random Forest can be implemented to improve the prediction.
 
 #### 7. Node Importance Analysis (haven't done)
 Identify the most important nodes of the optimal model.  
