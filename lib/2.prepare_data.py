@@ -50,6 +50,8 @@ def add_yr_renovated_transformed(df):
 
 
 if __name__ == '__main__':
+	os.system('mkdir -p {}'.format(os.path.join(CWDIR,'./../tmp')))
+
     path_imputed = os.path.join(CWDIR,'./../tmp/data_imputed.csv')
     path_data = os.path.join(CWDIR,'./../data/data.csv')
     df_raw = pd.read_csv(path_data)

@@ -142,6 +142,7 @@ def count_place_nearby(codes,keyword='supermarket',radius=800,types=['grocery_or
 
 
 if __name__ == '__main__':
+	os.system('mkdir -p {}'.format(os.path.join(CWDIR,'./../tmp')))
 	path_data = os.path.join(CWDIR,'./../data/data.csv')
 	path_geo = os.path.join(CWDIR,'./../tmp/df_geo.csv')
 	path_geo_clean = os.path.join(CWDIR,'./../tmp/df_geo_clean.csv')

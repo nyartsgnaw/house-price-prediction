@@ -7,6 +7,7 @@ except:
 pd.options.mode.chained_assignment = None  # default='warn'
 
 if __name__ == '__main__':
+	os.system('mkdir -p {}'.format(os.path.join(CWDIR,'./../tmp')))
 	path_data_clean = os.path.join(CWDIR,'./../tmp/data_clean.csv')
 	path_data_ml = os.path.join(CWDIR,'./../data/data_ml.csv')
 	df_clean = pd.read_csv(path_data_clean).dropna()

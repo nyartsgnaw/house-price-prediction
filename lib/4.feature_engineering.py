@@ -77,7 +77,7 @@ def update_RF_imp_logs(d_imp):
 	features =list(set( list(df.columns)+transform))
 	df_features = pd.DataFrame(columns=['EXP_ID']+features)
 	df_features.to_csv(path_features,index=False)
-	"""
+	"""	
 	path_features = os.path.join(CWDIR,'./../logs/RF_importance_logs.csv')
 	df_features = pd.read_csv(path_features)
 	row_features = pd.DataFrame([d_imp])
@@ -250,7 +250,9 @@ def start_exp(exp):
 
 
 if __name__ == '__main__':
-	os.system('mkdir -p ./../logs')
+	os.system('mkdir -p {}'.format(os.path.join(CWDIR,'./../tmp')))
+	os.system('mkdir -p {}'.format(os.path.join(CWDIR,'./../logs')))
+
 	exp_addr = os.path.join(CWDIR,'./../experiments/exp_logs.xlsx')
 	df_exp = pd.read_excel(exp_addr)
 	for i in range(df_exp.shape[0]):
