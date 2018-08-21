@@ -1,3 +1,9 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
+---
 
 ## House Prices Analysis Report
 
@@ -26,7 +32,7 @@ All experiments conditions and results are stored in ```./experiments/exp_logs.x
 ### Understanding the Problem
 Essentially, the price changes can be divided into two parts: changes from the vehicle of the housing market and the quality of the house itself.
 
-The market-level analysis is hard to be done since the window of House Prices Data is only 2 years. You can skip to the next paragraph if you are more interested in this specific data problem. Here I list the potential market-level analysis that can be done given more data ana longer time:  
+The market-level analysis is hard to be done since the window of House Prices Data is only 2 years. You can skip to the next paragraph if you are more interested in this specific data problem. Here I list the potential market-level analysis that can be done given more data and longer time:  
 1) **Substitutes Analysis**, e.g. trends of House Renting market can influence the House Buying market prices. 
 2) **Rivalry Analysis**, e.g. competitors' new products can change the rivalry dynamic and influence the prices on the market.
 3) **New Entrants Analysis**, e.g. newcomers can bring new technology that changes the game or consume more raw materials that influence costs and prices. 
@@ -94,9 +100,9 @@ Code of preparing training/validation/testing dataset is in ```./lib/split_train
 
 #### 2. Feature Engineering  
 I extract the following columns out of the original data:   
-- **age**: age of the house, age = date - yr_built  
-- **age_renovated**: time since last renovate, age_renovated = date - yr_renovated  
-- **sqft** = sqft_above+sqft_basement+sqft_living+sqft_lot  
+- **age**: age of the house, age = date - yr_built.  
+- **age_renovated**: time since last renovate, age_renovated = date - yr_renovated.  
+- **sqft** = sqft_above+sqft_basement+sqft_living+sqft_lot.  
 - **count_markets**: the count of supermarkets in a radius of 800.  
 - **count_restaurants**: the count of restaurants in a radius of 800.  
 - **count_stations**: the count of transition stations in a radius of 800.  
@@ -105,18 +111,18 @@ I extract the following columns out of the original data:
 - **logarithm form** for selective variables.  
 
 I compare the **logarithm form** and original form of a selected list of variables:    
-![](/home/nyartsgnaw/pyproject/pingan-takehome/visualize/density_compare_log.png)
+![](./visualize/density_compare_log.png)
 
 We have recovered/transformed enough features, next, we need to reduce redundancies/noises for modeling. At feature-level, highly correlated features can confuse the model, for example, the presence of both **age** (age = date - yr_built ) and **yr_built** not only increase computation but also can reduce coefficients of each one of them; at record-level, outliers that share significant different values may bias the model. To find which features/outliers to delete/transform, I will use a trained model validation performance as criteria.   
 
 Code of preparing data can be found in ```./lib/prepare_data.py```.
 
 #### 3. Model Setup
-When a human customer goes to buy a house it can be thought as a combination of decisions over different perspectives, a decision tree, which is born to mimic human decision-making process seems a good fit for such task. Since the perspectives to be considered are many, the house price patterns vary significantly geographically and property-wisely, therefore, I use a bootstrap-upgraded decision called Random Forest to ensure robustness.    
+When a human customer goes to buy a house it can be thought as a combination of decisions over different perspectives, a decision tree, which is born to mimic human decision-making process seems a good fit for such task. Since the perspectives to be considered are many, the house price patterns vary geographically and property-wisely, therefore, I use a bootstrap-upgraded decision called Random Forest to ensure robustness.    
 
 The best part for using Random Forest is that it doesn't have any assumptions like those of Linear Regressions: **Multivariate normality, Linear relationship, No multicollinearity, No auto-correlation**, etc. Although this should be checked to help approach better performance or robustness, these are not required here.  
 
-A bonus for Random Forest is that we can check feature (node) importance like we do for P-Values Check in Linear Regression, which helps us to find the most significant features.
+A bonus for Random Forest is that we can check feature (node) importance like we do for P-Values Check in Linear Regression, which helps us to find the best features.
 
 
 #### 4. Loss function and metrics
@@ -138,10 +144,10 @@ I show the effects of added features in the following plot:
 
 Comparing to the baseline (NON_KEPT, where we use all 14 original features came with the dataset), all added features improve the validating Proportional MAE to different extents. Among them, COUNT_KEPT and LOCALITY_KEPT significantly improve the prediction.  
 
-Though not shown in the plot, testing Proportional MAE indicates the direct uses of locality and neighborhood features lead to overfitting. To improve, I merged small-sized categories (e.g. under locality we have some cities getting only 1 record) under locality/neighborhood to a category called "Others" (which is also the category for unobserved locality/neighborhood in training dataset). The following plot indicates that the quantile of 30% is a good threshold for deciding "small categories".  
+Though not shown in the plot, testing Proportional MAE indicates the direct uses of features of locality and neighborhood lead to overfitting. To improve, I merged small-sized categories (e.g. under locality we have some cities getting only 1 record) under locality/neighborhood to a category called "Others" (which is also the category for unobserved locality/neighborhood in training dataset). The following plot indicates that the quantile of 30% is a good threshold for deciding "small categories".  
 ![](./experiments/scatter_threshould_categorical.png)  
 
-Alternative ways to deal with a large number of feature reduction automatically are [LASSO](https://en.wikipedia.org/wiki/Lasso_(statistics)), or stepwise [AIC](https://en.wikipedia.org/wiki/Akaike_information_criterion), [BIC](https://en.wikipedia.org/wiki/Bayesian_information_criterion), however, given limited time I only tried AIC, but my first try wasn't good enough for selecting categories under locality/neighborhood, I will extend this given more time.
+Alternative ways to deal with a large number of feature reduction automatically are [LASSO](https://en.wikipedia.org/wiki/Lasso_(statistics)), or stepwise [AIC](https://en.wikipedia.org/wiki/Akaike_information_criterion), [BIC](https://en.wikipedia.org/wiki/Bayesian_information_criterion), however, given limited time I only tried AIC, but my first try wasn't good enough for selecting categories under locality/neighborhood, I will continue this effort given more time.
 
 #### 5.2. Does logarithm transformation help to rebalance skewness?
 As stated in section 4, we use logarithm transformation to deal with skewed data issue. We first try to implement it on price:   
@@ -171,7 +177,7 @@ Plot the error and check its distribution (expected to be normally distributed),
 #### 7. Node Importance Analysis (haven't done)
 Identify the most important nodes of the optimal model.  
 
-### Conclusions
+#### 8. Conclusions
 1. Replacing prices with logged prices increase robustness but hurt model fitting, it can be improved by replacing logarithm with Box-Cox transformation.  
 
 2. Logged count, logged age, and logged sqft didn't improve much than their original forms, but they should be kept since they help to moderate robustness issue caused by taking MSE loss, which is biased for outliers. In another word, the log-transformed features may keep the model prediction consistently accurate even when encountering outliers in the future batches of testing data.
