@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>README</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////home/nyartsgnaw/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.3.5/node_modules/@shd101wyy/mume/dependencies/katex/katex.min.css">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <style> 
+      /**
+ * prism.js Github theme based on GitHub's theme.
+ * @author Sam Clarke
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #333;
+  background: none;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.4;
+
+  -moz-tab-size: 8;
+  -o-tab-size: 8;
+  tab-size: 8;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: .8em;
+  overflow: auto;
+  /* border: 1px solid #ddd; */
+  border-radius: 3px;
+  /* background: #fff; */
+  background: #f5f5f5;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+  background: #f5f5f5;
+}
+
+.token.comment,
+.token.blockquote {
+  color: #969896;
+}
+
+.token.cdata {
+  color: #183691;
+}
+
+.token.doctype,
+.token.punctuation,
+.token.variable,
+.token.macro.property {
+  color: #333;
+}
+
+.token.operator,
+.token.important,
+.token.keyword,
+.token.rule,
+.token.builtin {
+  color: #a71d5d;
+}
+
+.token.string,
+.token.url,
+.token.regex,
+.token.attr-value {
+  color: #183691;
+}
+
+.token.property,
+.token.number,
+.token.boolean,
+.token.entity,
+.token.atrule,
+.token.constant,
+.token.symbol,
+.token.command,
+.token.code {
+  color: #0086b3;
+}
+
+.token.tag,
+.token.selector,
+.token.prolog {
+  color: #63a35c;
+}
+
+.token.function,
+.token.namespace,
+.token.pseudo-element,
+.token.class,
+.token.class-name,
+.token.pseudo-class,
+.token.id,
+.token.url-reference .token.variable,
+.token.attr-name {
+  color: #795da3;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.title,
+.token.title .token.punctuation {
+  font-weight: bold;
+  color: #1d3e81;
+}
+
+.token.list {
+  color: #ed6a43;
+}
+
+.token.inserted {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.token.deleted {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+
+/* JSON */
+.language-json .token.property {
+  color: #183691;
+}
+
+.language-markup .token.tag .token.punctuation {
+  color: #333;
+}
+
+/* CSS */
+code.language-css,
+.language-css .token.function {
+  color: #0086b3;
+}
+
+/* YAML */
+.language-yaml .token.atrule {
+  color: #63a35c;
+}
+
+code.language-yaml {
+  color: #183691;
+}
+
+/* Ruby */
+.language-ruby .token.function {
+  color: #333;
+}
+
+/* Markdown */
+.language-markdown .token.url {
+  color: #795da3;
+}
+
+/* Makefile */
+.language-makefile .token.symbol {
+  color: #795da3;
+}
+
+.language-makefile .token.variable {
+  color: #183691;
+}
+
+.language-makefile .token.builtin {
+  color: #0086b3;
+}
+
+/* Bash */
+.language-bash .token.keyword {
+  color: #0086b3;
+}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{padding:0 1.6em;margin-top:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc li{margin-bottom:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{list-style-type:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  150px);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+ 
+      </style>
+    </head>
+    <body for="html-export">
+      <div class="mume markdown-preview   ">
+      <h2 class="mume-header" id="house-prices-analysis-report">House Prices Analysis Report</h2>
+
+<h3 class="mume-header" id="strayn-wang">Strayn Wang</h3>
+
+<p>This report has 4 sections: <strong>README, Understanding the Problem, Data Exploration, Machine Learning</strong>.</p>
+<h3 class="mume-header" id="readme">README</h3>
+
+<p>The code for this report is well-documented in the form of python files, where,<br>
+<code>./lib/1.geo_recovering.py</code> reads the original data and impute streets, neighborhoods, cities, counties, states, countries information to the data, and search &amp; count the number of clinics, schools, restaurants, supermarkets, transportations around the location by Google Geocoding API.<br>
+<code>./lib/2.prepare_data.py</code> transforms/adds features by analysis specified in this report.<br>
+<code>./lib/3.split_train_val_test.py</code> prepares the training/validation/testing data used for machine learning model.<br>
+<code>./lib/4.feature_engineering.py</code> defines experiment criteria used for training/testing different model iteratively for the purpose of feature engineering.</p>
+<p>All experiments conditions and results are stored in <code>./experiments/exp_logs.xlsx</code></p>
+<p><code>./visualize/visualize.py</code> is code for visualizations.</p>
+<p><code>./tmp</code> stores the intermediate data.</p>
+<p><code>./logs</code> stores the logs of model training.</p>
+<p><code>./data</code> stores the original data used for this project, which can be easily changed to data with a similar format.</p>
+<h3 class="mume-header" id="understanding-the-problem">Understanding the Problem</h3>
+
+<p>Essentially, the price changes can be divided into two parts: changes from the vehicle of the housing market and the quality of the house itself.</p>
+<p>The market-level analysis is hard to be done since the window of House Prices Data is only 2 years. You can skip to the next paragraph if you are more interested in this specific data problem. Here I list the potential market-level analysis that can be done given more data ana longer time:</p>
+<ol>
+<li><strong>Substitutes Analysis</strong>, e.g. trends of House Renting market can influence the House Buying market prices.</li>
+<li><strong>Rivalry Analysis</strong>, e.g. competitors' new products can change the rivalry dynamic and influence the prices on the market.</li>
+<li><strong>New Entrants Analysis</strong>, e.g. newcomers can bring new technology that changes the game or consume more raw materials that influence costs and prices.</li>
+<li><strong>Bargaining Power of Buyers Analysis</strong>, e.g. demographical changes over the area (growth of population, etc.) may change supplier/buyer ratio; also, customer's personal background, for example, her banking credit histories sometimes can influence the prices she gets.</li>
+</ol>
+<p>We can do a product-level analysis for this single data set, which focuses on the <strong>Bargaining Power of Suppliers</strong>.<br>
+The deal-breaking factors for house buyers are:</p>
+<ol>
+<li><strong>Property</strong>: Amenity, Age, structure, area size, decoration, luxury.</li>
+<li><strong>Policy</strong>: tax rate, interest rate, economic conditions.</li>
+<li><strong>Location</strong>: Neighborhood Safety, Transportation, Commercials (groceries, markets, restaurants), Schools (benefit for new parents), Hospitals (benefit for the old).<br>
+(More details can be found in this <a href="https://www.quora.com/What-factors-affect-real-estate-prices">quora answer</a>.)</li>
+</ol>
+<p>Our dataset has rich information for <strong>property</strong>, such as:</p>
+<ul>
+<li>overall score: 'grade';</li>
+<li>structures: 'bedrooms', 'bathrooms', 'floors', 'waterfront', 'view';</li>
+<li>area size: 'sqft_living','sqft_lot','sqft_above', 'sqft_basement', 'sqft_living15', 'sqft_lot15';</li>
+<li>age: 'condition','date', 'yr_built', 'yr_renovated';</li>
+</ul>
+<p><strong>Policies</strong> seem a complicated &amp; hard question, but actually, they are the same in one state, therefore, adding a categorical state name variable can roughly carry this information. However, since sales records in our data are only in Washington, this can be ignored.</p>
+<p><strong>Location</strong> carries rich deal-breaking information and we get the latitude and longitude, it is promising to spend sometime recover it.<br>
+I use <a href="https://developers.google.com/maps/documentation/geocoding/intro">Google Reverse Geocoding API</a> to recover <strong>Street, Neighborhood, County, State, Country</strong> information from longitude and altitude.<br>
+I then use <a href="https://developers.google.com/places/web-service/intro">Google Place API</a> to search &amp; count <strong>Transportation, Supermarkets, Restaurants</strong> in 10 minutes walking distance and <em>Schools and Hospitals</em>* in 30 minutes walking distance.</p>
+<p>The imputed data can be found in <code>./tmp/data_imputed.csv</code>.<br>
+The API query code can be found in <code>./lib/geo_recovering.py</code>.</p>
+<h3 class="mume-header" id="data-exploration">Data Exploration</h3>
+
+<h4 class="mume-header" id="1-how-prices-flow-with-time-time-series-analysis">1. How prices flow with time (Time Series Analysis)</h4>
+
+<p>Whether it is reasonable to predict future by model depends on whether the price pattern is constant over time. I plot the daily mean price for each city (locality in the plot):<br>
+<img src="./visualize/time_series_price_by_locality.png" alt=""></p>
+<p>Peaks can be found in 8/32 cities we have (Seattle, Carnation, Lake Forest Park, Burien, Issaquah, Normandy Park, Bellevue, Mercer Island), not too many, and we can say the price is stable/stationary in the 2-year window. It means we can create a model ignoring absolute time,  which means we can transform columns like yr_built/yr_renovated to relative time, e.g. age/age_renovated or simply delete them.</p>
+<h4 class="mume-header" id="2-how-prices-stretch-by-values-distribution-analysis">2. How prices stretch by values (Distribution Analysis)</h4>
+
+<p>I print the mean price for different cities in Washington.<br>
+<img src="./visualize/reginoal_price.png" alt=""></p>
+<p>Seattle, the only city I ever heard of in Washington, whose house average prices rank 16. And <a href="https://en.wikipedia.org/wiki/Medina,_Washington">Medina</a>, the most expensive city in Washington has itself surrounding by the pretty Lake Washington.</p>
+<p>More details can be found in the following density plot:<br>
+<img src="./visualize/density_price_by_locality.png" alt=""></p>
+<p>The number on the plot indicate the count of data in that region. It is clear to see that most of the sales (7226/21590) go to Seattle. Another point is that a majority of the regional prices have long tails. Normally, if the long tails take up big proportion in a variable, we may benefit from logarithm transformation of the variable since it rebalances the data by reducing the skewness.</p>
+<h4 class="mume-header" id="3-how-price-correlates-to-indicators-correlation-analysis">3. How price correlates to indicators (Correlation Analysis)</h4>
+
+<p>To show this I made the scatter plots between each indicator to the logarithm of price:<br>
+<img src="./visualize/scatter_all_by_log_price.png" alt=""></p>
+<p>Out of all columns, the grade, size of the living room (sqft_living), waterfront, size of the above (sqft_above) have the strongest correlation on the plot (this is further shown in importance analysis).</p>
+<p>Code of visualizing can be found in <code>./visualize/visualize.py</code>.</p>
+<h3 class="mume-header" id="machine-learning">Machine Learning</h3>
+
+<h4 class="mume-header" id="1-data-preparation">1. Data preparation</h4>
+
+<p>I take <a href="https://en.wikipedia.org/wiki/Issaquah,_Washington">Issaquah</a>, a city with 761 records whose average price is 644439.05 to be the test set.</p>
+<p>I split the rest data into 8/2, where the training set has 16663 records and validation set has 4166 records.</p>
+<p>Code of preparing training/validation/testing dataset is in <code>./lib/split_train_val_test.py</code>.</p>
+<h4 class="mume-header" id="2-feature-engineering">2. Feature Engineering</h4>
+
+<p>I extract the following columns out of the original data:</p>
+<ul>
+<li><strong>age</strong>: age of the house, age = date - yr_built</li>
+<li><strong>age_renovated</strong>: time since last renovate, age_renovated = date - yr_renovated</li>
+<li><strong>sqft</strong> = sqft_above+sqft_basement+sqft_living+sqft_lot</li>
+<li><strong>count_markets</strong>: the count of supermarkets in a radius of 800.</li>
+<li><strong>count_restaurants</strong>: the count of restaurants in a radius of 800.</li>
+<li><strong>count_stations</strong>: the count of transition stations in a radius of 800.</li>
+<li><strong>count_schools</strong>: the count of schools in a radius of 2400.</li>
+<li><strong>count_clinics</strong>: the count of clinics in a radius of 2400.</li>
+<li><strong>logarithm form</strong> for selective variables.</li>
+</ul>
+<p>I compare the <strong>logarithm form</strong> and original form of a selected list of variables:<br>
+<img src="home/nyartsgnaw/pyproject/pingan-takehome/visualize/density_compare_log.png" alt=""></p>
+<p>We have recovered/transformed enough features, next, we need to reduce redundancies/noises for modeling. At feature-level, highly correlated features can confuse the model, for example, the presence of both <strong>age</strong> (age = date - yr_built ) and <strong>yr_built</strong> not only increase computation but also can reduce coefficients of each one of them; at record-level, outliers that share significant different values may bias the model. To find which features/outliers to delete/transform, I will use a trained model validation performance as criteria.</p>
+<p>Code of preparing data can be found in <code>./lib/prepare_data.py</code>.</p>
+<h4 class="mume-header" id="3-model-setup">3. Model Setup</h4>
+
+<p>When a human customer goes to buy a house it can be thought as a combination of decisions over different perspectives, a decision tree, which is born to mimic human decision-making process seems a good fit for such task. Since the perspectives to be considered are many, the house price patterns vary significantly geographically and property-wisely, therefore, I use a bootstrap-upgraded decision called Random Forest to ensure robustness.</p>
+<p>The best part for using Random Forest is that it doesn't have any assumptions like those of Linear Regressions: <strong>Multivariate normality, Linear relationship, No multicollinearity, No auto-correlation</strong>, etc. Although this should be checked to help approach better performance or robustness, these are not required here.</p>
+<p>A bonus for Random Forest is that we can check feature (node) importance like we do for P-Values Check in Linear Regression, which helps us to find the most significant features.</p>
+<h4 class="mume-header" id="4-loss-function-and-metrics">4. Loss function and metrics</h4>
+
+<p>I choose <strong>Mean Squared Error</strong> as loss function for machine learning since it is faster than Mean Absolute Error. Doing so causes a potential problem of bias over the outliers to have bigger values, two solutions to this:</p>
+<ul>
+<li>Delete outliers by a threshold.</li>
+<li>Transform the skewed data with logarithm.</li>
+</ul>
+<p>On evaluating results, I didn't use MSE directly but use proportional MAE, which is Mean Absolute Error divided by mean of true labels.<br>
+<span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>M</mi><mi>A</mi><msubsup><mi>E</mi><mi>i</mi><mrow><mi>p</mi><mi>r</mi><mi>o</mi><mi>p</mi></mrow></msubsup><mo>=</mo><mfrac><mrow><mi>M</mi><mi>A</mi><msub><mi>E</mi><mi>i</mi></msub></mrow><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mi>N</mi></mrow></mfrac><munder><mo>∑</mo><mi>N</mi></munder><mrow><msubsup><mi>Y</mi><mi>i</mi><mrow><mi>t</mi><mi>r</mi><mi>u</mi><mi>e</mi></mrow></msubsup></mrow></mrow></mfrac></mrow><annotation encoding="application/x-tex">MAE^{prop}_{i} = \frac{MAE_{i}}{\frac{1}{N}\sum_{N}{Y^{true}_{i}}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:1.36033em;"></span><span class="strut bottom" style="height:2.4404380000000003em;vertical-align:-1.080108em;"></span><span class="base"><span class="mord mathit" style="margin-right:0.10903em;">M</span><span class="mord mathit">A</span><span class="mord"><span class="mord mathit" style="margin-right:0.05764em;">E</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.7822999999999999em;"><span style="top:-2.4231360000000004em;margin-left:-0.05764em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight">i</span></span></span></span><span style="top:-3.180908em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight">p</span><span class="mord mathit mtight" style="margin-right:0.02778em;">r</span><span class="mord mathit mtight">o</span><span class="mord mathit mtight">p</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.276864em;"></span></span></span></span></span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.36033em;"><span style="top:-2.2648919999999997em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight" style="margin-right:0.10903em;">N</span></span></span></span><span style="top:-3.15em;"><span class="pstrut" style="height:3em;"></span><span class="stretchy" style="height:0.2em;"><svg width="400em" height="0.2em" viewBox="0 0 400000 200" preserveAspectRatio="xMinYMin slice"><path d="M0 80H400000 v40H0z M0 80H400000 v40H0z"></path></svg></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord rule" style="margin-right:0.16666666666666666em;"></span><span class="mop"><span class="mop op-symbol small-op" style="position:relative;top:-0.0000050000000000050004em;">∑</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.17862099999999992em;"><span style="top:-2.40029em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight" style="margin-right:0.10903em;">N</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.29971000000000003em;"></span></span></span></span></span><span class="mord rule" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord"><span class="mord mathit" style="margin-right:0.22222em;">Y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.7753559999999999em;"><span style="top:-2.4231360000000004em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight">i</span></span></span></span><span style="top:-3.0448000000000004em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight">t</span><span class="mord mathit mtight" style="margin-right:0.02778em;">r</span><span class="mord mathit mtight">u</span><span class="mord mathit mtight">e</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.27686399999999994em;"></span></span></span></span></span></span></span></span><span style="top:-3.15em;"><span class="pstrut" style="height:3em;"></span><span class="stretchy" style="height:0.2em;"><svg width="400em" height="0.2em" viewBox="0 0 400000 200" preserveAspectRatio="xMinYMin slice"><path d="M0 80H400000 v40H0z M0 80H400000 v40H0z"></path></svg></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathit" style="margin-right:0.10903em;">M</span><span class="mord mathit">A</span><span class="mord"><span class="mord mathit" style="margin-right:0.05764em;">E</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:-0.05764em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight">i</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.080108em;"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+<p>where <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>N</mi></mrow><annotation encoding="application/x-tex">N</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.68333em;vertical-align:0em;"></span><span class="base"><span class="mord mathit" style="margin-right:0.10903em;">N</span></span></span></span> is the size of the test batch, <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mi>Y</mi><mi>i</mi><mrow><mi>t</mi><mi>r</mi><mi>u</mi><mi>e</mi></mrow></msubsup></mrow><annotation encoding="application/x-tex">Y^{true}_{i}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.7935559999999999em;"></span><span class="strut bottom" style="height:1.05222em;vertical-align:-0.258664em;"></span><span class="base"><span class="mord"><span class="mord mathit" style="margin-right:0.22222em;">Y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.7935559999999999em;"><span style="top:-2.441336em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight">i</span></span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight">t</span><span class="mord mathit mtight" style="margin-right:0.02778em;">r</span><span class="mord mathit mtight">u</span><span class="mord mathit mtight">e</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.258664em;"></span></span></span></span></span></span></span></span> is the true values of prices, <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>M</mi><mi>A</mi><mi>E</mi></mrow><annotation encoding="application/x-tex">MAE</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.68333em;vertical-align:0em;"></span><span class="base"><span class="mord mathit" style="margin-right:0.10903em;">M</span><span class="mord mathit">A</span><span class="mord mathit" style="margin-right:0.05764em;">E</span></span></span></span> are the Mean Absolute Error.</p>
+<h4 class="mume-header" id="5-experiments">5. Experiments</h4>
+
+<h4 class="mume-header" id="51-do-added-features-make-sense">5.1. Do added features make sense?</h4>
+
+<p>I show the effects of added features in the following plot:<br>
+<img src="./experiments/comparison_added_features.png" alt=""></p>
+<p>Comparing to the baseline (NON_KEPT, where we use all 14 original features came with the dataset), all added features improve the validating Proportional MAE to different extents. Among them, COUNT_KEPT and LOCALITY_KEPT significantly improve the prediction.</p>
+<p>Though not shown in the plot, testing Proportional MAE indicates the direct uses of locality and neighborhood features lead to overfitting. To improve, I merged small-sized categories (e.g. under locality we have some cities getting only 1 record) under locality/neighborhood to a category called &quot;Others&quot; (which is also the category for unobserved locality/neighborhood in training dataset). The following plot indicates that the quantile of 30% is a good threshold for deciding &quot;small categories&quot;.<br>
+<img src="./experiments/scatter_threshould_categorical.png" alt=""></p>
+<p>Alternative ways to deal with a large number of feature reduction automatically are <a href="https://en.wikipedia.org/wiki/Lasso_(statistics)">LASSO</a>, or stepwise <a href="https://en.wikipedia.org/wiki/Akaike_information_criterion">AIC</a>, <a href="https://en.wikipedia.org/wiki/Bayesian_information_criterion">BIC</a>, however, given limited time I only tried AIC, but my first try wasn't good enough for selecting categories under locality/neighborhood, I will extend this given more time.</p>
+<h4 class="mume-header" id="52-does-logarithm-transformation-help-to-rebalance-skewness">5.2. Does logarithm transformation help to rebalance skewness?</h4>
+
+<p>As stated in section 4, we use logarithm transformation to deal with skewed data issue. We first try to implement it on price:<br>
+<img src="./experiments/log_price_vs_price.png" alt=""></p>
+<p>Results show that it harms the validating Proportional MAE, though a further check shows that it helps increase robustness (differences between validating Proportional MAE and testing Proportional MAE). I haven't got enough time to analyze whether the incorrect predictions are for the smaller/bigger-value prices.</p>
+<h4 class="mume-header" id="53-does-threshold-help-to-cutoff-outliers">5.3. Does Threshold help to cutoff outliers?</h4>
+
+<p>To cutoff outliers bigger than a threshold of 90, which means for all numeric indicators, any values bigger than 90% quantile of for this indicator will be deleted. The experiment shows it helps to decrease validating Proportional MAE:<br>
+<img src="./experiments/scatter_threshould_numeric.png" alt=""></p>
+<p>Given limited time, I only show the points, a better way of doing this is to cutoff by clustering or by assumed distribution like multivariate Gaussian.</p>
+<h4 class="mume-header" id="54-current-results">5.4. Current Results</h4>
+
+<p>Based on insights from 5.1~5.3, I zoom in on 10 different experiment factors and set up 127 experiments. By the criteria of validating Proportional MAE and testing Proportional MAE, I found the best models and list them here, this table also shows the 10 experimental factors:<br>
+<img src="./experiments/best_models.png" alt=""></p>
+<p>The 127 experiments can be found in <code>./experiments/exp_logs.xlsx</code>.</p>
+<p>The best models have an average validating Proportional MAE of 0.1426 and a testing Proportional MAE of 0.1553, whereas the baseline models have a validating Proportional MAE of 0.2310 and an average testing Proportional MAE of 0.1995.  <strong>An average of 62% improvement</strong> has been seen on the dataset! The feature engineering efforts are quite rewarding.</p>
+<p>The code of feature engineering can be found in <code>./lib/feature_engineering.py</code>.</p>
+<h4 class="mume-header" id="6-error-analysis-havent-done">6. Error Analysis (haven't done)</h4>
+
+<p>Plot the error and check its distribution (expected to be normally distributed), if there are any significant patterns in error distribution, Gradient Boost Random Forest can be implemented to improve the prediction.</p>
+<h4 class="mume-header" id="7-node-importance-analysis-havent-done">7. Node Importance Analysis (haven't done)</h4>
+
+<p>Identify the most important nodes of the optimal model.</p>
+<h3 class="mume-header" id="conclusions">Conclusions</h3>
+
+<ol>
+<li>
+<p>Replacing prices with logged prices increase robustness but hurt model fitting, it can be improved by replacing logarithm with Box-Cox transformation.</p>
+</li>
+<li>
+<p>Logged count, logged age, and logged sqft didn't improve much than their original forms, but they should be kept since they help to moderate robustness issue caused by taking MSE loss, which is biased for outliers. In another word, the log-transformed features may keep the model prediction consistently accurate even when encountering outliers in the future batches of testing data.</p>
+</li>
+<li>
+<p>Count and locality provide the biggest improvement for prediction (minimizing validating Proportional MAE). But a lower testing performance comparing to validating performance suggests overfitting. Additionally, since locality and neighborhood cover only information in Washington, whether to keep them or not depends on what kind/size of future data we will be given in the real implementation of this problem.</p>
+</li>
+<li>
+<p>Given more time to collect data, the market-level analysis is expected to improve the models.</p>
+</li>
+</ol>
+
+      </div>
+      
+      
+    </body>
+    
+    
+    
+    
+    
+    
+    
+  </html>
