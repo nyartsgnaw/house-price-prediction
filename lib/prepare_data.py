@@ -4,9 +4,12 @@ import numpy as np
 
 import datetime
 import re
-import os 
 pd.options.mode.chained_assignment = None  # default='warn'
-
+import os
+try:
+	CWDIR = os.path.abspath(os.path.dirname(__file__))
+except:
+	CWDIR = os.getcwd()	
 
 
 def add_price_range(df):
@@ -47,8 +50,8 @@ def add_yr_renovated_transformed(df):
 
 
 if __name__ == '__main__':
-    path_imputed = './../tmp/data_imputed.csv'
-    path_data = './../data/data.csv'
+    path_imputed = os.path.join(CWDIR,'./../tmp/data_imputed.csv')
+    path_data = os.path.join(CWDIR,'./../data/data.csv')
     df_raw = pd.read_csv(path_data)
     df = df_raw.copy()
     if os.path.isfile(path_imputed):
@@ -99,7 +102,7 @@ if __name__ == '__main__':
     df_clean = df.copy()
     print(df_clean.isnull().sum())
     df_clean = df_clean.dropna()
-    path_clean_data = './../tmp/data_clean.csv'        
+    path_clean_data = os.path.join(CWDIR,'./../tmp/data_clean.csv')        
     df_clean.to_csv(path_clean_data,index=False)
     print('Output to {}'.format(path_clean_data))
 

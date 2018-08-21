@@ -78,7 +78,7 @@ def update_RF_imp_logs(d_imp):
 	df_features = pd.DataFrame(columns=['EXP_ID']+features)
 	df_features.to_csv(path_features,index=False)
 	"""
-	path_features = './../logs/RF_importance_logs.csv'
+	path_features = os.path.join(CWDIR,'./../logs/RF_importance_logs.csv')
 	df_features = pd.read_csv(path_features)
 	row_features = pd.DataFrame([d_imp])
 	if df_features.loc[df_features['EXP_ID']==d_imp['EXP_ID'],].shape[0] == 0:

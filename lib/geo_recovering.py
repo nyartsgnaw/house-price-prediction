@@ -3,9 +3,14 @@ import numpy as np
 import googlemaps
 import time
 import re 
-import os 
+import os
+try:
+	CWDIR = os.path.abspath(os.path.dirname(__file__))
+except:
+	CWDIR = os.getcwd()	
+pd.options.mode.chained_assignment = None  # default='warn'
 
-api_key = 'AIzaSyC_kXSRnBiQk5ZKSvctKOF7wfDHUJ68P8A'
+api_key = None
 def reverse_geocode(codes):
 	names_info = ['route','neighborhood','locality','administrative_area_level_2',
 				'administrative_area_level_1','country']
@@ -137,11 +142,11 @@ def count_place_nearby(codes,keyword='supermarket',radius=800,types=['grocery_or
 
 
 if __name__ == '__main__':
-	path_data = './../data/data.csv'
-	path_geo = './../tmp/df_geo.csv'
-	path_geo_clean = './../tmp/df_geo_clean.csv'
-	path_geo_count_clean = './../tmp/df_geo_count_clean.csv'
-	path_imputed = './../tmp/data_imputed.csv'
+	path_data = os.path.join(CWDIR,'./../data/data.csv')
+	path_geo = os.path.join(CWDIR,'./../tmp/df_geo.csv')
+	path_geo_clean = os.path.join(CWDIR,'./../tmp/df_geo_clean.csv')
+	path_geo_count_clean = os.path.join(CWDIR,'./../tmp/df_geo_count_clean.csv')
+	path_imputed = os.path.join(CWDIR,'./../tmp/data_imputed.csv')
 
 	df_raw = pd.read_csv(path_data)
 	if os.path.isfile(path_geo):

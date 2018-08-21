@@ -8,6 +8,13 @@ import seaborn as sns
 from pylab import rcParams
 from pandas.plotting import scatter_matrix
 import re
+import os
+try:
+	CWDIR = os.path.abspath(os.path.dirname(__file__))
+except:
+	CWDIR = os.getcwd()	
+pd.options.mode.chained_assignment = None  # default='warn'
+
 def sub_plots1(loop,nrow,ncol,addr='foo.png'):
     FIGRE_SIZE = (20,int(20*nrow/ncol))
     fig,axes = plt.subplots(nrow,ncol,sharey=True,figsize=FIGRE_SIZE)
@@ -210,7 +217,7 @@ if __name__ == '__main__':
     DENSITY_COMPARE_LOG = True
     
     #read the data
-    path_clean_data = './../tmp/data_clean.csv'  
+    path_clean_data = os.path.join(CWDIR,'./../tmp/data_clean.csv'  )
     df_clean = pd.read_csv(path_clean_data)
     df = df_clean.copy()
 
